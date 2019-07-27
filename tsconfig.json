@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "outDir": "dist-js",
+        "target": "es3",
+        "module": "commonjs"
+    }
+}

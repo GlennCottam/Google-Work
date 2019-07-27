@@ -1,0 +1,15 @@
+:root
+{
+    --sidebar-width: 75px;
+}
+
+
+#sidebar
+{
+    width: var(--sidebar-width) !important;
+}
+
+.icon_app
+{
+    max-width: 50px;
+}

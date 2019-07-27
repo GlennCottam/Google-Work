@@ -1,0 +1,32 @@
+{
+  "name": "google-work",
+  "version": "1.0.0",
+  "description": "Desktop Application built on electron that brings all your google apps to one location.",
+  "main": "dist-js/index.js",
+  "scripts": {
+    "test": "tsc && electron .",
+    "build": "tsc && electron-builder --dir",
+    "pack": "electron-builder --macos --linux --windows"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlennCottam/Google-Work.git"
+  },
+  "keywords": [
+    "Google",
+    "Unoffical",
+    "Electron"
+  ],
+  "author": "GlennCottam",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/GlennCottam/Google-Work/issues"
+  },
+  "homepage": "https://github.com/GlennCottam/Google-Work#readme",
+  "devDependencies": {
+    "electron": "^5.0.8",
+    "electron-builder": "^21.1.5",
+    "tsconfig": "^7.0.0",
+    "typescript": "^3.5.3"
+  }
+}
